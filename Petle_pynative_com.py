@@ -41,3 +41,31 @@ for n in numbers:
         break
     if n % 5 ==0 and n <= 150:
         print(n)
+
+#Exercise 6: Count the total number of digits in a number
+print('\nExercise 6\n')
+
+a = int(input('Podaj liczbę a: '))
+d = 1
+number_of_digits = 0
+
+while abs(a/d) >= 1:
+    number_of_digits += 1
+    d *= 10
+print(number_of_digits)
+
+#Exercise 7: Print the following pattern
+print('\nExercise 7\n')
+
+for i in range(5,0,-1):
+    for j in range(i,0,-1):
+        print(j,end=' ')
+    print('')
+
+#Exercise 8: Print list in reverse order using a loop
+print('\nExercise 8\n')
+
+list1 = [10, 20, 30, 40, 50]
+
+for n in range(len(list1)-1, -1, -1):
+    print(list1[n])
