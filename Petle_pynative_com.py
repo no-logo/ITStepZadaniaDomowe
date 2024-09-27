@@ -99,3 +99,40 @@ for n in range(start,end+1):
     if p == 2:
         print(n)
     p = 0
+
+#Exercise 12: Display Fibonacci series up to 10 terms
+print('\nExercise 12\n')
+
+print('Fibonacci sequence:')
+fib = [0,1]
+for n in range(1,11):
+    fib.append(fib[n]+fib[n-1])
+    print(fib[n-1],end = ' ')
+
+#Exercise 13: Find the factorial of a given number
+print('\nExercise 13\n')
+
+a = int(input('Podaj liczbę a: '))
+
+f = 1
+
+for r in range(a,0,-1):
+    f *= r
+print(f)
+
+#Exercise 14: Reverse a integer number
+print('\nExercise 14\n')
+
+n = 76542
+s = ''
+
+for r in range(len(str(n)) -1, -1, -1):
+    s += str(n)[r]
+print(s)
+
+#Exercise 15: Print elements from a given list present at odd index positions
+print('\nExercise 15\n')
+my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+
+for r in range(1,len(my_list),2):
+    print(my_list[r], end = ' ')
