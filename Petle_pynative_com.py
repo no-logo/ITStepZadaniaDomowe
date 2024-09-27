@@ -155,3 +155,12 @@ for r in range(1,a+1):
     s += int('2'*r)
 
 print(s)
+
+#a = int(input('Podaj liczbę a: '))
+print('\nExercise 18\n')
+
+for r in range(1,6):
+    print(r*'* ')
+
+for r in range(4,0,-1):
+    print(r*'* ')
