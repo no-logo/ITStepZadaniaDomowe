@@ -136,3 +136,11 @@ my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 
 for r in range(1,len(my_list),2):
     print(my_list[r], end = ' ')
+
+#Exercise 16: Calculate the cube of all numbers from 1 to a given number
+print('\nExercise 16\n')
+
+a = int(input('Podaj liczbę a: '))
+
+for r in range(1,a+1):
+    print(f'Current Number is: {r} and the cube is {r*r*r}')
