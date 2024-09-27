@@ -144,3 +144,14 @@ a = int(input('Podaj liczbę a: '))
 
 for r in range(1,a+1):
     print(f'Current Number is: {r} and the cube is {r*r*r}')
+
+#Exercise 17: Find the sum of the series up to n terms
+print('\nExercise 17\n')
+
+a = int(input('Podaj liczbę a: '))
+s = 0
+
+for r in range(1,a+1):
+    s += int('2'*r)
+
+print(s)
