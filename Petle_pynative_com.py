@@ -156,7 +156,7 @@ for r in range(1,a+1):
 
 print(s)
 
-#a = int(input('Podaj liczbę a: '))
+#Exercise 18: Print the following pattern
 print('\nExercise 18\n')
 
 for r in range(1,6):
