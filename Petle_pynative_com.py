@@ -69,3 +69,33 @@ list1 = [10, 20, 30, 40, 50]
 
 for n in range(len(list1)-1, -1, -1):
     print(list1[n])
+
+#Exercise 9: Display numbers from -10 to -1 using for loop
+print('\nExercise 9\n')
+
+for r in range(-10,0):
+    print(r)
+
+#Exercise 10: Display a message “Done” after the successful execution of the for loop
+print('\nExercise 10\n')
+
+for i in range(5):
+    print(i)
+else:
+    print('Done!')
+
+#Exercise 11: Print all prime numbers within a range
+print('\nExercise 11\n')
+
+start = 25
+end = 50
+
+p = 0
+
+for n in range(start,end+1):
+    for i in range(n,0,-1):
+        if n % i == 0:
+            p += 1
+    if p == 2:
+        print(n)
+    p = 0
