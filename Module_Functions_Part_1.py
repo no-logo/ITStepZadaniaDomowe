@@ -119,5 +119,24 @@ def product_of_numbers_in_range(a,b):
 print(product_of_numbers_in_range(2,5))
 print(product_of_numbers_in_range(5,2))
 
+#Task 6
+print('\nTask 6\n')
+
+def number_of_digits(n):
+    return len(str(n))
+
+print(number_of_digits(3456))
+
+#Task 7
+print('\nTask 7\n')
+
+def check_palindrome(n):
+    n1 = str(n)
+    n2 = (str(n))[::-1]
+    return n1 == n2
+
+print(check_palindrome(3456))
+print(check_palindrome(3443))
+
 
 
