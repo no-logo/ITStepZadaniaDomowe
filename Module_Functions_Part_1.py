@@ -93,4 +93,31 @@ print_square(10,'*',False)
 print('\n')
 print_square(10,'*',True)
 
+#Task 4
+print('\nTask 4\n')
+
+def smallest_nuber(*args):
+    sorted_numbers = sorted(args)
+    return sorted_numbers[0]
+
+s = smallest_nuber(10,2,3,4,5)
+print(s)
+
+#Task 5
+print('\nTask 5\n')
+
+def product_of_numbers_in_range(a,b):
+    if a > b:
+        a, b = b, a
+
+    product = 1
+    for i in range(a,b+1):
+        product *= i
+
+    return product
+
+print(product_of_numbers_in_range(2,5))
+print(product_of_numbers_in_range(5,2))
+
+
 
