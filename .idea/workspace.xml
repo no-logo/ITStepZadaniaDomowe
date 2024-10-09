@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f746af2-f7a7-4f16-aec6-d693f85dfe69" name="Changes" comment="Exercise 1 - 18" />
+    <list default="true" id="7f746af2-f7a7-4f16-aec6-d693f85dfe69" name="Changes" comment="task 1 - 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_Functions_Part_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module_Functions_Part_2.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,21 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "no-logo"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;no-logo&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/no-logo/ITStepZadaniaDomowe.git",
-    "accountId": "2c9aab57-377f-433a-9e64-6b4afe79ac14"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/no-logo/ITStepZadaniaDomowe.git&quot;,
+    &quot;accountId&quot;: &quot;2c9aab57-377f-433a-9e64-6b4afe79ac14&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2mebqw5enquuYBpW0GW6DNhS4In" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,6 +46,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Module_Functions_Part_1.executor": "Run",
+    "Python.Module_Functions_Part_2.executor": "Run",
     "Python.Petle_pynative_com.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -96,7 +101,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727440184369</updated>
-      <workItem from="1727440186150" duration="6369000" />
+      <workItem from="1727440186150" duration="7038000" />
+      <workItem from="1728392087792" duration="6097000" />
+      <workItem from="1728485117877" duration="2855000" />
     </task>
     <task id="LOCAL-00001" summary="add new file Petle_pynative_com.py">
       <option name="closed" value="true" />
@@ -170,7 +177,71 @@
       <option name="project" value="LOCAL" />
       <updated>1727446562858</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Exercise 1 - 18">
+      <option name="closed" value="true" />
+      <created>1727446624191</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727446624191</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Exercise 1 - 3">
+      <option name="closed" value="true" />
+      <created>1728394984979</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728394984979</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Exercise 1 - 3">
+      <option name="closed" value="true" />
+      <created>1728395023329</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728395023329</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Task 1 - 3">
+      <option name="closed" value="true" />
+      <created>1728397027899</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1728397027899</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Task 4 - 5">
+      <option name="closed" value="true" />
+      <created>1728397699377</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1728397699377</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Task 6 - 7">
+      <option name="closed" value="true" />
+      <created>1728398135899</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728398135899</updated>
+    </task>
+    <task id="LOCAL-00016" summary="zadanie 1 - 2">
+      <option name="closed" value="true" />
+      <created>1728486369530</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1728486369530</updated>
+    </task>
+    <task id="LOCAL-00017" summary="task 1 - 3">
+      <option name="closed" value="true" />
+      <created>1728487506834</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1728487506834</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +256,13 @@
     <MESSAGE value="Exercise 9,10,11" />
     <MESSAGE value="Exercise 12,13,14,15,16" />
     <MESSAGE value="Exercise 1 - 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercise 1 - 18" />
+    <MESSAGE value="Exercise 1 - 3" />
+    <MESSAGE value="Task 1 - 3" />
+    <MESSAGE value="Task 4 - 5" />
+    <MESSAGE value="Task 6 - 7" />
+    <MESSAGE value="zadanie 1 - 2" />
+    <MESSAGE value="task 1 - 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 1 - 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -199,7 +276,9 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pythonProject$Module_Functions_Part_1.coverage" NAME="Module_Functions_Part_1 Coverage Results" MODIFIED="1728398108474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1727440994208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$Petle_pynative_com.coverage" NAME="Petle_pynative_com Coverage Results" MODIFIED="1727446527674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$Module_Functions_Part_2.coverage" NAME="Module_Functions_Part_2 Coverage Results" MODIFIED="1728487953017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

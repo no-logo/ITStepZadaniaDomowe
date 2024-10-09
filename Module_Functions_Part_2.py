@@ -62,3 +62,36 @@ def check_prime_numbers(input_list):
 
 print(check_prime_numbers([1, 2, 3, 4, 5, 6, 7, 8, 9]))
 
+#task 4
+print('\nTask 4\n')
+
+def remove_element_from_list(input_list, element):
+    number_of_removed = 0
+    for e in input_list:
+        if e == element:
+            input_list.remove(e)
+            number_of_removed += 1
+    return number_of_removed
+
+print(remove_element_from_list([1, 2, 1, 4, 1, 6, 1, 8, 1], 1))
+
+#task 5
+print('\nTask 5\n')
+
+def connect_two_lists(input_list1, input_list2):
+    for e in input_list2:
+        input_list1.append(e)
+    return input_list1
+
+print(connect_two_lists([1, 2, 3, 4, 5, 6, 7, 8, 9], [10, 20, 30, 40, 50, 60, 70, 80, 90]))
+
+#task 6
+print('\nTask 6\n')
+
+def power_of_list_elements(input_list, p):
+    return [e**p for e in input_list]
+
+print(power_of_list_elements([1, 2, 3, 4, 5, 6, 7, 8, 9], 2))
+
+
+
