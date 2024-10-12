@@ -1,4 +1,6 @@
 #Zadanie 1
+from datetime import time
+
 print('\nZadanie 1\n')
 
 def calculate_word_value(word):
@@ -59,4 +61,50 @@ def show_line(symbol, function_to_call):
 
 show_line('#', vertical_line)
 show_line('*', horizontal_line)
+
+#Task 4
+print('\nTask 4\n')
+
+import time
+
+def time_decorator(func):
+    def wrapper():
+        start = time.time()
+        en = func()
+        end = time.time()
+        print(en)
+        print(f'\nnumber of seconds : {end - start}')
+    return wrapper
+
+@time_decorator
+def even_numbers():
+    even_num = []
+    for i in range(100001):
+        if i % 2 == 0:
+            even_num.append(i)
+    return even_num
+
+even_numbers()
+
+#Task 5
+print('\nTask 5\n')
+
+def time_decorator1(func):
+    def wrapper(a):
+        start = time.time()
+        en = func(a)
+        end = time.time()
+        print(en)
+        print(f'\nnumber of seconds : {end - start}')
+    return wrapper
+
+@time_decorator1
+def even_numbers(a):
+    even_num = []
+    for i in range(a+1):
+        if i % 2 == 0:
+            even_num.append(i)
+    return even_num
+
+even_numbers(1000000)
 
