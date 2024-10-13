@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f746af2-f7a7-4f16-aec6-d693f85dfe69" name="Changes" comment="task 2,3">
+    <list default="true" id="7f746af2-f7a7-4f16-aec6-d693f85dfe69" name="Changes" comment="task 4,5">
+      <change afterPath="$PROJECT_DIR$/Generators_Part_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generators_Part_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Generators_Part_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,23 +44,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Generators_Part_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_Functions_Part_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Module_Functions_Part_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Petle_pynative_com.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Generators_Part_1.executor": "Run",
+    "Python.Generators_Part_2.executor": "Run",
+    "Python.Module_Functions_Part_1.executor": "Run",
+    "Python.Module_Functions_Part_2.executor": "Run",
+    "Python.Petle_pynative_com.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
@@ -106,7 +107,8 @@
       <workItem from="1728392087792" duration="6097000" />
       <workItem from="1728485117877" duration="3647000" />
       <workItem from="1728664526705" duration="2513000" />
-      <workItem from="1728751224309" duration="2619000" />
+      <workItem from="1728751224309" duration="3513000" />
+      <workItem from="1728836673195" duration="2501000" />
     </task>
     <task id="LOCAL-00001" summary="add new file Petle_pynative_com.py">
       <option name="closed" value="true" />
@@ -268,7 +270,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728751968494</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="task 4,5">
+      <option name="closed" value="true" />
+      <created>1728755309135</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1728755309135</updated>
+    </task>
+    <task id="LOCAL-00022" summary="task 4,5">
+      <option name="closed" value="true" />
+      <created>1728755360085</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1728755360085</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +310,8 @@
     <MESSAGE value="task 4 - 6" />
     <MESSAGE value="zadanie 1 task 1" />
     <MESSAGE value="task 2,3" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 2,3" />
+    <MESSAGE value="task 4,5" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 4,5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -307,9 +326,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonProject$Module_Functions_Part_1.coverage" NAME="Module_Functions_Part_1 Coverage Results" MODIFIED="1728398108474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1728751469633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$Generators_Part_2.coverage" NAME="Generators_Part_2 Coverage Results" MODIFIED="1728839171406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1728836953849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$Petle_pynative_com.coverage" NAME="Petle_pynative_com Coverage Results" MODIFIED="1727446527674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$Module_Functions_Part_2.coverage" NAME="Module_Functions_Part_2 Coverage Results" MODIFIED="1728488104783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pythonProject$Generators_Part_1.coverage" NAME="Generators_Part_1 Coverage Results" MODIFIED="1728755041993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$Generators_Part_1.coverage" NAME="Generators_Part_1 Coverage Results" MODIFIED="1728755263543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
