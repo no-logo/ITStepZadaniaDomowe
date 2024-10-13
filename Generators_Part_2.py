@@ -85,6 +85,25 @@ def calculate(list_to_work, function_to_call):
 print(calculate([1,2,3,4], square_list_values))
 print(calculate([1,2,3,4], qube_list_values))
 
+# Task 4
+print('\nTask 4\n')
+
+def agency_decorator(report_func):
+    def wrapper(agency_name):
+        print(f'Header: {agency_name}')
+        report_func(agency_name)
+        print(f'Footer: {agency_name}\n\n')
+
+    return wrapper
+
+@agency_decorator
+def annual_report(agency_name):
+    print('Body of the annual report')
+
+annual_report('AGENCY 1')
+annual_report('AGENCY 2')
+
+
 
 
 
