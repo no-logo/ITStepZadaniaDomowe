@@ -52,6 +52,39 @@ def fibonacci_numbers_in_range(begin, end):
 
 print(list(fibonacci_numbers_in_range(3, 12)))
 
+# Task 2
+print('\nTask 2\n')
+
+def sum_of_two_list(l1, l2):
+    len_max = max(len(l1), len(l2))
+
+    for r in range(len_max):
+        if r >= len(l1):
+            l1.append(0)
+        if r >= len(l2):
+            l2.append(0)
+
+    for r in range(len_max):
+        yield l1[r] + l2[r]
+
+l = list(sum_of_two_list([1,2,3,4,5],[1,2]))
+print(l)
+
+# Task 3
+print('\nTask 3\n')
+
+def square_list_values(list1):
+    return [r**2 for r in list1]
+
+def qube_list_values(list1):
+    return [r**3 for r in list1]
+
+def calculate(list_to_work, function_to_call):
+    return function_to_call(list_to_work)
+
+print(calculate([1,2,3,4], square_list_values))
+print(calculate([1,2,3,4], qube_list_values))
+
 
 
 
