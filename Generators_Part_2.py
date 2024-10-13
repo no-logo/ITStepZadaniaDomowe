@@ -89,19 +89,24 @@ print(calculate([1,2,3,4], qube_list_values))
 print('\nTask 4\n')
 
 def agency_decorator(report_func):
-    def wrapper(agency_name):
-        print(f'Header: {agency_name}')
-        report_func(agency_name)
-        print(f'Footer: {agency_name}\n\n')
+    def wrapper():
+        print('Header: Agency Name 1')
+        report_func()
+        print('Footer:  Agency Name 1\n\n')
+
+        print('Header: Agency Name 2')
+        report_func()
+        print('Footer:  Agency Name 2\n\n')
 
     return wrapper
 
 @agency_decorator
-def annual_report(agency_name):
-    print('Body of the annual report')
+def annual_report():
+    print('Body of the annual report from function')
 
-annual_report('AGENCY 1')
-annual_report('AGENCY 2')
+annual_report()
+
+
 
 
 
