@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f746af2-f7a7-4f16-aec6-d693f85dfe69" name="Changes" comment="chessboard 6">
-      <change afterPath="$PROJECT_DIR$/chessboard_and_knight_15x15.py" afterDir="false" />
+    <list default="true" id="7f746af2-f7a7-4f16-aec6-d693f85dfe69" name="Changes" comment="chessboard 15x15">
+      <change afterPath="$PROJECT_DIR$/Sorting_and_Searching_Part_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,28 +44,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Generators_Part_1.executor": "Run",
-    "Python.Generators_Part_2.executor": "Run",
-    "Python.Module_Functions_Part_1.executor": "Run",
-    "Python.Module_Functions_Part_2.executor": "Run",
-    "Python.Module_Functions_Part_3.executor": "Run",
-    "Python.Petle_pynative_com.executor": "Run",
-    "Python.chessboard_and_knight.executor": "Run",
-    "Python.chessboard_and_knight_15x15.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Generators_Part_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Generators_Part_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_Functions_Part_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_Functions_Part_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_Functions_Part_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Petle_pynative_com.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chessboard_and_knight.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chessboard_and_knight_15x15.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
@@ -116,7 +116,8 @@
       <workItem from="1728898859511" duration="10485000" />
       <workItem from="1729000003764" duration="4579000" />
       <workItem from="1729256745866" duration="5252000" />
-      <workItem from="1729432265343" duration="2846000" />
+      <workItem from="1729432265343" duration="3189000" />
+      <workItem from="1729435501390" duration="1681000" />
     </task>
     <task id="LOCAL-00001" summary="add new file Petle_pynative_com.py">
       <option name="closed" value="true" />
@@ -382,14 +383,21 @@
       <option name="project" value="LOCAL" />
       <updated>1729261948120</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="chessboard 15x15">
+      <option name="closed" value="true" />
+      <created>1729435147868</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1729435147868</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Exercise 3,4,5" />
     <MESSAGE value="Exercise 6,7,8" />
     <MESSAGE value="Exercise 9,10,11" />
     <MESSAGE value="Exercise 12,13,14,15,16" />
@@ -414,7 +422,8 @@
     <MESSAGE value="chessboard 4" />
     <MESSAGE value="chessboard 5" />
     <MESSAGE value="chessboard 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="chessboard 6" />
+    <MESSAGE value="chessboard 15x15" />
+    <option name="LAST_COMMIT_MESSAGE" value="chessboard 15x15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
