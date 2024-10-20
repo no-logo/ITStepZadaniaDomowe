@@ -15,8 +15,29 @@ def bubble_sort(slist):
             j -= 1
     return slist
 
-rand_list = [random.randint(0,100) for i in range(20)]
-
+rand_list = [random.randint(0,100) for _ in range(20)]
 print(rand_list)
 sorted_rand_list = bubble_sort(rand_list)
+print(sorted_rand_list)
+
+#2. Selection sort
+print('\n2. Sorting list\n')
+
+def selection_sort(slist):
+    j = 0
+    while j < len(slist):
+        min_list_index = j
+        min_list_value = slist[j]
+        for i in range(j+1, len(slist)):
+            if slist[i] < min_list_value:
+                min_list_value = slist[i]
+                min_list_index = i
+        slist[j], slist[min_list_index] = slist[min_list_index], slist[j]
+        j += 1
+
+    return slist
+
+rand_list = [random.randint(0,100) for _ in range(20)]
+print(rand_list)
+sorted_rand_list = selection_sort(rand_list)
 print(sorted_rand_list)
