@@ -68,3 +68,4 @@ print(sorted_rand_list)
 
 #4. Merge sort
 print('\n4. Merge sort\n')
+# https://visualgo.net/en/sorting
