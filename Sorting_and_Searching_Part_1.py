@@ -65,3 +65,6 @@ rand_list = [random.randint(0,100) for _ in range(20)]
 print(rand_list)
 sorted_rand_list = insertion_sort(rand_list)
 print(sorted_rand_list)
+
+#4. Merge sort
+print('\n4. Merge sort\n')

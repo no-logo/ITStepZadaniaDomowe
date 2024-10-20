@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f746af2-f7a7-4f16-aec6-d693f85dfe69" name="Changes" comment="2. Selection sort">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorting_and_Searching_Part_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting_and_Searching_Part_1.py" afterDir="false" />
-    </list>
+    <list default="true" id="7f746af2-f7a7-4f16-aec6-d693f85dfe69" name="Changes" comment="2. Selection sort" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +115,7 @@
       <workItem from="1729000003764" duration="4579000" />
       <workItem from="1729256745866" duration="5252000" />
       <workItem from="1729432265343" duration="3189000" />
-      <workItem from="1729435501390" duration="7091000" />
+      <workItem from="1729435501390" duration="8558000" />
     </task>
     <task id="LOCAL-00001" summary="add new file Petle_pynative_com.py">
       <option name="closed" value="true" />
@@ -408,7 +405,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729444408697</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="2. Selection sort">
+      <option name="closed" value="true" />
+      <created>1729449238170</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1729449238170</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +459,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$Sorting_and_Searching_Part_1.coverage" NAME="Sorting_and_Searching_Part_1 Coverage Results" MODIFIED="1729447724424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$Sorting_and_Searching_Part_1.coverage" NAME="Sorting_and_Searching_Part_1 Coverage Results" MODIFIED="1729449177571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$Petle_pynative_com.coverage" NAME="Petle_pynative_com Coverage Results" MODIFIED="1727446527674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$Module_Functions_Part_2.coverage" NAME="Module_Functions_Part_2 Coverage Results" MODIFIED="1728488104783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$chessboard_and_knight_15x15.coverage" NAME="chessboard_and_knight_15x15 Coverage Results" MODIFIED="1729434749254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
