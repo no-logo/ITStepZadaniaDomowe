@@ -21,7 +21,7 @@ sorted_rand_list = bubble_sort(rand_list)
 print(sorted_rand_list)
 
 #2. Selection sort
-print('\n2. Sorting list\n')
+print('\n2. Selection sort\n')
 
 def selection_sort(slist):
     j = 0
