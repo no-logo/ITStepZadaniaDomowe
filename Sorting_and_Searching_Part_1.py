@@ -1,3 +1,5 @@
+# https://visualgo.net/en/sorting
+
 import random
 
 #1. Bubble sort
@@ -68,4 +70,31 @@ print(sorted_rand_list)
 
 #4. Merge sort
 print('\n4. Merge sort\n')
-# https://visualgo.net/en/sorting
+
+def merge_lists(slist, tmp_list, start, middle, end):
+    for i in range(start, end + 1):
+        tmp_list[i] = slist[i]
+
+    i = start
+    j = middle + 1
+
+    for k in range(start, end + 1):
+        if i <= middle:
+            if j <= end:
+                slist[k] = tmp_list[j]
+                j += 1
+            else:
+                slist[k] = tmp_list[i]
+                i += 1
+        else:
+            slist[k] = tmp_list[j]
+            j += 1
+
+def merge_sort(slist, tmp_list, start, end):
+    return slist
+
+rand_list = [random.randint(0,100) for _ in range(20)]
+
+print(rand_list)
+sorted_rand_list = merge_sort(rand_list)
+print(sorted_rand_list)
