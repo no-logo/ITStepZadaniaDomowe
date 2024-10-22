@@ -81,8 +81,12 @@ def merge_lists(slist, tmp_list, start, middle, end):
     for k in range(start, end + 1):
         if i <= middle:
             if j <= end:
-                slist[k] = tmp_list[j]
-                j += 1
+                if tmp_list[j] < tmp_list[i]:
+                    slist[k] = tmp_list[j]
+                    j += 1
+                else:
+                    slist[k] = tmp_list[i]
+                    i += 1
             else:
                 slist[k] = tmp_list[i]
                 i += 1
@@ -90,11 +94,18 @@ def merge_lists(slist, tmp_list, start, middle, end):
             slist[k] = tmp_list[j]
             j += 1
 
+    return slist
+
 def merge_sort(slist, tmp_list, start, end):
+    if start < end:
+        middle = (start + end) // 2
+        merge_sort(slist, tmp_list, start, middle)
+        merge_sort(slist, tmp_list, middle+1, end)
+        slist = merge_lists(slist, tmp_list, start, middle, end)
     return slist
 
 rand_list = [random.randint(0,100) for _ in range(20)]
-
+tmp_list = [0]*len(rand_list)
 print(rand_list)
-sorted_rand_list = merge_sort(rand_list)
+sorted_rand_list = merge_sort(rand_list, tmp_list, 0, len(rand_list) - 1)
 print(sorted_rand_list)
