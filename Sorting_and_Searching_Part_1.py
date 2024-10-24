@@ -113,28 +113,16 @@ print(sorted_rand_list)
 #4. Quick sort
 print('\n4. Quick sort\n')
 
-def quick_sort(slist, start, end):
-    if end <= start:
+def quick_sort(slist):
+    if len(slist) <= 1:
         return slist
-    i = start
-    j = end
-    tmp_elem = slist[(start + end) // 2]
-
-    while True:
-        while tmp_elem > slist[i]:
-            i += 1
-        while tmp_elem < slist[j]:
-            j -= 1
-        if i <= j:
-            slist[i], slist[j] = slist[j], slist[i]
-        else:
-            break
-    if j > end:
-        quick_sort(slist, start, j)
-    if i < end:
-        quick_sort(slist, i, end)
+    else:
+        #Select the first element of the array as the pivot
+        return (quick_sort([x for x in slist[1:] if x < slist[0]]) #Sort those elements of the array that are less than the pivot
+                + [slist[0]] #add pivot
+                + quick_sort([x for x in slist[1:] if x >= slist[0]])) #Sort those elements of the array that are larger than the pivot
 
 rand_list = [random.randint(0,100) for _ in range(20)]
 print(rand_list)
-sorted_rand_list = quick_sort(rand_list, 0, len(rand_list) - 1)
+sorted_rand_list = quick_sort(rand_list)
 print(sorted_rand_list)
