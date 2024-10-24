@@ -126,3 +126,20 @@ rand_list = [random.randint(0,100) for _ in range(20)]
 print(rand_list)
 sorted_rand_list = quick_sort(rand_list)
 print(sorted_rand_list)
+
+#Task 1
+print('\nTask 1\n')
+
+rand_list = [random.randint(-100,100) for _ in range(20)]
+am = sum(rand_list) / len(rand_list)
+
+if am > 0:
+    len_list_to_sort = (len(rand_list) / 3) * 2
+else:
+    len_list_to_sort = len(rand_list) / 3
+
+len_list_to_sort = int(round(len_list_to_sort,0))
+slist = sorted(rand_list[0:len_list_to_sort]) + list(reversed(rand_list[len_list_to_sort:len(rand_list)]))
+
+print(rand_list)
+print(slist)
