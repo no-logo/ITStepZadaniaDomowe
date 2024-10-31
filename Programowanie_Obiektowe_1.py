@@ -139,7 +139,7 @@ class Stadium:
     __data_otwarcia = ''
     __kraj = ''
     __miasto = ''
-    __liczba_miejsc_siedzących = 0
+    __liczba_miejsc_siedzacych = 0
 
     @classmethod
     def set_nazwa_stadionu(cls, nazwa_stadionu):
@@ -158,8 +158,8 @@ class Stadium:
         cls.__miasto = miasto
 
     @classmethod
-    def set_liczba_miejsc_siedzących(cls,liczba_miejsc_siedzących):
-        cls.__liczba_miejsc_siedzących = liczba_miejsc_siedzących
+    def set_liczba_miejsc_siedzacych(cls,liczba_miejsc_siedzacych):
+        cls.__liczba_miejsc_siedzacych = liczba_miejsc_siedzacych
 
     @classmethod
     def get_nazwa_stadionu(cls):
@@ -178,13 +178,13 @@ class Stadium:
         return cls.__miasto
 
     @classmethod
-    def get_liczba_miejsc_siedzących(cls):
-        return cls.__liczba_miejsc_siedzących
+    def get_liczba_miejsc_siedzacych(cls):
+        return cls.__liczba_miejsc_siedzacych
 
 Stadium.set_nazwa_stadionu('Stadion Cracovii im. Józefa Piłsudskiego')
 Stadium.set_data_otwarcia('1912-03-31')
 Stadium.set_kraj('Polska')
 Stadium.set_miasto('Kraków')
-Stadium.set_liczba_miejsc_siedzących(15016)
+Stadium.set_liczba_miejsc_siedzacych(15016)
 
-print(Stadium.get_nazwa_stadionu(), Stadium.get_data_otwarcia(), Stadium.get_kraj(), Stadium.get_miasto(), Stadium.get_liczba_miejsc_siedzących())
+print(Stadium.get_nazwa_stadionu(), Stadium.get_data_otwarcia(), Stadium.get_kraj(), Stadium.get_miasto(), Stadium.get_liczba_miejsc_siedzacych())
