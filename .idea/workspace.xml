@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f746af2-f7a7-4f16-aec6-d693f85dfe69" name="Changes" comment="Zadanie 2 i 3">
-      <change afterPath="$PROJECT_DIR$/Programowanie_obiektowe_2.py" afterDir="false" />
+    <list default="true" id="7f746af2-f7a7-4f16-aec6-d693f85dfe69" name="Changes" comment="Zadanie 1,2 i 3 plus poprawka klasy Stadium">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +123,7 @@
       <workItem from="1729604143848" duration="5642000" />
       <workItem from="1729778668083" duration="3349000" />
       <workItem from="1729930116587" duration="589000" />
-      <workItem from="1730359166676" duration="4632000" />
+      <workItem from="1730359166676" duration="6366000" />
     </task>
     <task id="LOCAL-00001" summary="add new file Petle_pynative_com.py">
       <option name="closed" value="true" />
@@ -502,14 +501,21 @@
       <option name="project" value="LOCAL" />
       <updated>1730362259774</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Zadanie 1,2 i 3 plus poprawka klasy Stadium">
+      <option name="closed" value="true" />
+      <created>1730364963688</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1730364963688</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="task 4,5" />
     <MESSAGE value="zadanie 1, 2 task 1" />
     <MESSAGE value="task 2,3" />
     <MESSAGE value="task 1,2,3" />
@@ -534,7 +540,8 @@
     <MESSAGE value="Task 1" />
     <MESSAGE value="Zadanie 1" />
     <MESSAGE value="Zadanie 2 i 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 2 i 3" />
+    <MESSAGE value="Zadanie 1,2 i 3 plus poprawka klasy Stadium" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 1,2 i 3 plus poprawka klasy Stadium" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -549,7 +556,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$Sorting_and_Searching_Part_1.coverage" NAME="Sorting_and_Searching_Part_1 Coverage Results" MODIFIED="1729781331997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$Programowanie_obiektowe_2.coverage" NAME="Programowanie_obiektowe_2 Coverage Results" MODIFIED="1730363801988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$Programowanie_obiektowe_2.coverage" NAME="Programowanie_obiektowe_2 Coverage Results" MODIFIED="1730364811340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$Petle_pynative_com.coverage" NAME="Petle_pynative_com Coverage Results" MODIFIED="1727446527674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$Module_Functions_Part_2.coverage" NAME="Module_Functions_Part_2 Coverage Results" MODIFIED="1728488104783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$chessboard_and_knight_15x15.coverage" NAME="chessboard_and_knight_15x15 Coverage Results" MODIFIED="1729434749254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -560,7 +567,7 @@
     <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$main.coverage" NAME="main Coverage Results" MODIFIED="1730359750442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1728836953849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$Generators_Part_2.coverage" NAME="Generators_Part_2 Coverage Results" MODIFIED="1728899117637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$Programowanie_Obiektowe_1.coverage" NAME="Programowanie_Obiektowe_1 Coverage Results" MODIFIED="1730362229340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$Programowanie_Obiektowe_1.coverage" NAME="Programowanie_Obiektowe_1 Coverage Results" MODIFIED="1730364914795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$chessboard_and_knight.coverage" NAME="chessboard_and_knight Coverage Results" MODIFIED="1729261882491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
