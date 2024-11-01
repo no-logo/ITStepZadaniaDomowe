@@ -62,15 +62,22 @@ class Librarian(Person):
     def check_availability(book: Book):
         return book.is_available()
 
+    @staticmethod
+    def  register_book(title, author, isbn):
+        b = Book(title, author, isbn, True)
+        return b
 
-b1 = Book('title b1', 'autnor b1', 'b1 123456', True)
-print(f'book {b1.get_title()} created')
-b2 = Book('title b2', 'autnor b2', 'b2 123456', True)
-print(f'book {b2.get_title()} created')
+
 l = Librarian('Librarian name', '123456')
 print(f'Librarian name: {l.get_info()} created')
 r = Reader('Reader name', 123456)
 print(f'Reader name: {r.get_info()} created')
+
+b1 = l.register_book('title b1', 'autnor b1', 'b1 123456')
+print(f'book {b1.get_title()} registered')
+b2 = l.register_book('title b2', 'autnor b2', 'b2 123456')
+print(f'book {b2.get_title()} registered')
+
 
 print(f'Availability for {b1.get_title()}: {l.check_availability(b1)}')
 print(f'Availability for {b2.get_title()}: {l.check_availability(b2)}')
