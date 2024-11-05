@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f746af2-f7a7-4f16-aec6-d693f85dfe69" name="Changes" comment="biblioteka">
+      <change afterPath="$PROJECT_DIR$/UnitTests_course.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biblioteka.py" beforeDir="false" afterPath="$PROJECT_DIR$/biblioteka.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +46,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests in UnitTests_course.py.executor": "Run",
     "Python.Generators_Part_1.executor": "Run",
     "Python.Generators_Part_2.executor": "Run",
     "Python.Module_Functions_Part_1.executor": "Run",
@@ -126,15 +127,8 @@
       <workItem from="1729778668083" duration="3349000" />
       <workItem from="1729930116587" duration="589000" />
       <workItem from="1730359166676" duration="6366000" />
-      <workItem from="1730485208192" duration="1086000" />
-    </task>
-    <task id="LOCAL-00001" summary="add new file Petle_pynative_com.py">
-      <option name="closed" value="true" />
-      <created>1727440881072</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1727440881072</updated>
+      <workItem from="1730485208192" duration="2495000" />
+      <workItem from="1730815322386" duration="1347000" />
     </task>
     <task id="LOCAL-00002" summary="Exercise 1 i 2">
       <option name="closed" value="true" />
@@ -520,7 +514,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730485939863</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="biblioteka">
+      <option name="closed" value="true" />
+      <created>1730486507591</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1730486507591</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,6 +574,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$Module_Functions_Part_2.coverage" NAME="Module_Functions_Part_2 Coverage Results" MODIFIED="1728488104783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$chessboard_and_knight_15x15.coverage" NAME="chessboard_and_knight_15x15 Coverage Results" MODIFIED="1729434749254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$Generators_Part_1.coverage" NAME="Generators_Part_1 Coverage Results" MODIFIED="1728755263543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$.coverage" NAME=" Coverage Results" MODIFIED="1730818920095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$Module_Functions_Part_1.coverage" NAME="Module_Functions_Part_1 Coverage Results" MODIFIED="1728398108474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$Module_Functions_Part_3.coverage" NAME="Module_Functions_Part_3 Coverage Results" MODIFIED="1728917290882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$Generators_Part_2.coverage" NAME="Generators_Part_2 Coverage Results" MODIFIED="1728841344529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -579,7 +582,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1728836953849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$Generators_Part_2.coverage" NAME="Generators_Part_2 Coverage Results" MODIFIED="1728899117637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$Programowanie_Obiektowe_1.coverage" NAME="Programowanie_Obiektowe_1 Coverage Results" MODIFIED="1730364914795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$biblioteka.coverage" NAME="biblioteka Coverage Results" MODIFIED="1730485904215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$biblioteka.coverage" NAME="biblioteka Coverage Results" MODIFIED="1730486462896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$chessboard_and_knight.coverage" NAME="chessboard_and_knight Coverage Results" MODIFIED="1729261882491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
