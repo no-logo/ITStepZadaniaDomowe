@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f746af2-f7a7-4f16-aec6-d693f85dfe69" name="Changes" comment="biblioteka">
-      <change afterPath="$PROJECT_DIR$/UnitTests_course.py" afterDir="false" />
+    <list default="true" id="7f746af2-f7a7-4f16-aec6-d693f85dfe69" name="Changes" comment="unit tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests_course.py" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests_course.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,15 +128,7 @@
       <workItem from="1729930116587" duration="589000" />
       <workItem from="1730359166676" duration="6366000" />
       <workItem from="1730485208192" duration="2495000" />
-      <workItem from="1730815322386" duration="1347000" />
-    </task>
-    <task id="LOCAL-00002" summary="Exercise 1 i 2">
-      <option name="closed" value="true" />
-      <created>1727441402604</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1727441402604</updated>
+      <workItem from="1730815322386" duration="2451000" />
     </task>
     <task id="LOCAL-00003" summary="Exercise 3,4,5">
       <option name="closed" value="true" />
@@ -522,14 +514,21 @@
       <option name="project" value="LOCAL" />
       <updated>1730486507591</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="unit tests">
+      <option name="closed" value="true" />
+      <created>1730819401466</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1730819401467</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="task 2,3" />
     <MESSAGE value="task 1,2,3" />
     <MESSAGE value="task 2" />
     <MESSAGE value="task 2 updated" />
@@ -554,7 +553,8 @@
     <MESSAGE value="Zadanie 2 i 3" />
     <MESSAGE value="Zadanie 1,2 i 3 plus poprawka klasy Stadium" />
     <MESSAGE value="biblioteka" />
-    <option name="LAST_COMMIT_MESSAGE" value="biblioteka" />
+    <MESSAGE value="unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="unit tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -574,7 +574,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$Module_Functions_Part_2.coverage" NAME="Module_Functions_Part_2 Coverage Results" MODIFIED="1728488104783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$chessboard_and_knight_15x15.coverage" NAME="chessboard_and_knight_15x15 Coverage Results" MODIFIED="1729434749254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$Generators_Part_1.coverage" NAME="Generators_Part_1 Coverage Results" MODIFIED="1728755263543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$.coverage" NAME=" Coverage Results" MODIFIED="1730818920095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$.coverage" NAME=" Coverage Results" MODIFIED="1730820141147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$Module_Functions_Part_1.coverage" NAME="Module_Functions_Part_1 Coverage Results" MODIFIED="1728398108474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$Module_Functions_Part_3.coverage" NAME="Module_Functions_Part_3 Coverage Results" MODIFIED="1728917290882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$Generators_Part_2.coverage" NAME="Generators_Part_2 Coverage Results" MODIFIED="1728841344529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
