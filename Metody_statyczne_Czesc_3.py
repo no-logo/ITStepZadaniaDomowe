@@ -3,21 +3,21 @@ print('\nZadanie 1\n')
 
 from fractions import Fraction
 
-class Fraction(Fraction):
+class FractionWithCounter(Fraction):
     __fraction_counter = 0
     def __init__(self,numerator=0, denominator=None):
-        super().__new__(Fraction, numerator, denominator)
-        Fraction.__fraction_counter += 1
+        super().__new__(FractionWithCounter, numerator, denominator)
+        FractionWithCounter.__fraction_counter += 1
 
     @staticmethod
     def get_fraction_counter():
-        return Fraction.__fraction_counter
+        return FractionWithCounter.__fraction_counter
 
-f1 = Fraction(1,2)
-f2 = Fraction(1,3)
-f3 = Fraction(1,4)
+f1 = FractionWithCounter(1, 2)
+f2 = FractionWithCounter(1, 3)
+f3 = FractionWithCounter(1, 4)
 print(f1, f2, f3)
-print(f'Utworzono {Fraction.get_fraction_counter()} obiekty klasy {type(f1)}')
+print(f'Utworzono {FractionWithCounter.get_fraction_counter()} obiekty klasy {type(f1)}')
 
 #Zadanie 2
 print('\nZadanie 2\n')
@@ -51,38 +51,50 @@ print('\nZadanie 3\n')
 
 class UnitsConverter:
 
+    @staticmethod
     def convert_inch_to_cm(value):
-        pass
+        return value * 2.54
 
+    @staticmethod
     def convert_cm_to_inch(value):
-        pass
+        return value / 2.54
 
+    @staticmethod
     def convert_foot_to_cm(value):
-        pass
+        return value * 30.48
 
+    @staticmethod
     def convert_cm_to_foot(value):
-        pass
+        return value / 30.48
 
-    def convert_yard_to_cm(value):
-        pass
+    @staticmethod
+    def convert_yard_to_m(value):
+        return value * 0.9144
 
-    def convert_cm_to_yard(value):
-        pass
+    @staticmethod
+    def convert_m_to_yard(value):
+        return value / 0.9144
 
+    @staticmethod
     def convert_mile_to_km(value):
-        pass
+        return value * 1.6093
 
+    @staticmethod
     def convert_km_to_mile(value):
-        pass
+        return value / 1.6093
 
+    @staticmethod
     def convert_pint_to_ml(value):
-        pass
+        return value * 568
 
+    @staticmethod
     def convert_ml_to_pint(value):
-        pass
+        return value / 568
 
+    @staticmethod
     def convert_pound_to_g(value):
-        pass
+        return value * 453.59
 
+    @staticmethod
     def convert_g_to_pound(value):
-        pass
+        return value / 453.59
