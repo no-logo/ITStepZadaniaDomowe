@@ -45,3 +45,44 @@ print(TemperatureConverter.get_converter_counter())
 print(TemperatureConverter.convert_from_celsius_to_fahrenheit(25))
 print(TemperatureConverter.convert_from_fahrenheit_to_celsius(25))
 print(TemperatureConverter.get_converter_counter())
+
+#Zadanie 3
+print('\nZadanie 3\n')
+
+class UnitsConverter:
+
+    def convert_inch_to_cm(value):
+        pass
+
+    def convert_cm_to_inch(value):
+        pass
+
+    def convert_foot_to_cm(value):
+        pass
+
+    def convert_cm_to_foot(value):
+        pass
+
+    def convert_yard_to_cm(value):
+        pass
+
+    def convert_cm_to_yard(value):
+        pass
+
+    def convert_mile_to_km(value):
+        pass
+
+    def convert_km_to_mile(value):
+        pass
+
+    def convert_pint_to_ml(value):
+        pass
+
+    def convert_ml_to_pint(value):
+        pass
+
+    def convert_pound_to_g(value):
+        pass
+
+    def convert_g_to_pound(value):
+        pass

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f746af2-f7a7-4f16-aec6-d693f85dfe69" name="Changes" comment="miernik">
-      <change afterPath="$PROJECT_DIR$/Metody_statyczne_Czesc_3.py" afterDir="false" />
+    <list default="true" id="7f746af2-f7a7-4f16-aec6-d693f85dfe69" name="Changes" comment="metody statyczne">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Metody_statyczne_Czesc_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Metody_statyczne_Czesc_3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,15 +131,7 @@
       <workItem from="1730359166676" duration="6366000" />
       <workItem from="1730485208192" duration="2495000" />
       <workItem from="1730815322386" duration="3119000" />
-      <workItem from="1730962131691" duration="4171000" />
-    </task>
-    <task id="LOCAL-00006" summary="Exercise 12">
-      <option name="closed" value="true" />
-      <created>1727445620102</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1727445620102</updated>
+      <workItem from="1730962131691" duration="5635000" />
     </task>
     <task id="LOCAL-00007" summary="Exercise 12,13,14,15,16">
       <option name="closed" value="true" />
@@ -525,14 +517,21 @@
       <option name="project" value="LOCAL" />
       <updated>1730963319448</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="metody statyczne">
+      <option name="closed" value="true" />
+      <created>1730967065554</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1730967065554</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="task 2" />
     <MESSAGE value="task 2 updated" />
     <MESSAGE value="chessboard 1" />
     <MESSAGE value="chessboard 2" />
@@ -557,7 +556,8 @@
     <MESSAGE value="biblioteka" />
     <MESSAGE value="unit tests" />
     <MESSAGE value="miernik" />
-    <option name="LAST_COMMIT_MESSAGE" value="miernik" />
+    <MESSAGE value="metody statyczne" />
+    <option name="LAST_COMMIT_MESSAGE" value="metody statyczne" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -578,7 +578,7 @@
     <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$chessboard_and_knight_15x15.coverage" NAME="chessboard_and_knight_15x15 Coverage Results" MODIFIED="1729434749254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$Generators_Part_1.coverage" NAME="Generators_Part_1 Coverage Results" MODIFIED="1728755263543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$.coverage" NAME=" Coverage Results" MODIFIED="1730820394207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$Metody_statyczne_Czesc_3.coverage" NAME="Metody_statyczne_Czesc_3 Coverage Results" MODIFIED="1730966590022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$Metody_statyczne_Czesc_3.coverage" NAME="Metody_statyczne_Czesc_3 Coverage Results" MODIFIED="1730967023977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$Module_Functions_Part_1.coverage" NAME="Module_Functions_Part_1 Coverage Results" MODIFIED="1728398108474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$Module_Functions_Part_3.coverage" NAME="Module_Functions_Part_3 Coverage Results" MODIFIED="1728917290882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$Generators_Part_2.coverage" NAME="Generators_Part_2 Coverage Results" MODIFIED="1728841344529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
