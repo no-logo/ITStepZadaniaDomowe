@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f746af2-f7a7-4f16-aec6-d693f85dfe69" name="Changes" comment="exception Zadanie 2A">
-      <change afterPath="$PROJECT_DIR$/2024.12.17_Powtorki.py" afterDir="false" />
+    <list default="true" id="7f746af2-f7a7-4f16-aec6-d693f85dfe69" name="Changes" comment="powtorka rozgalezienia">
+      <change afterPath="$PROJECT_DIR$/2024.12.17_Petle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2024.12.17_Powtorki.py" beforeDir="false" afterPath="$PROJECT_DIR$/2024.12.17_Powtorki.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests in UnitTests_course.py.executor": "Run",
+    "Python.2024.12.17_Petle.executor": "Run",
     "Python.2024.12.17_Powtorki.executor": "Run",
     "Python.Dekoratory_Czesc_7.executor": "Run",
     "Python.Generators_Part_1.executor": "Run",
@@ -145,15 +147,7 @@
       <workItem from="1732625281465" duration="598000" />
       <workItem from="1733502102362" duration="596000" />
       <workItem from="1734096344687" duration="1991000" />
-      <workItem from="1734456813831" duration="2498000" />
-    </task>
-    <task id="LOCAL-00013" summary="Task 1 - 3">
-      <option name="closed" value="true" />
-      <created>1728397027899</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1728397027899</updated>
+      <workItem from="1734456813831" duration="3125000" />
     </task>
     <task id="LOCAL-00014" summary="Task 4 - 5">
       <option name="closed" value="true" />
@@ -539,14 +533,21 @@
       <option name="project" value="LOCAL" />
       <updated>1732456519489</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="powtorka rozgalezienia">
+      <option name="closed" value="true" />
+      <created>1734459369863</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1734459369864</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="chessboard 2" />
     <MESSAGE value="chessboard 3" />
     <MESSAGE value="chessboard 4" />
     <MESSAGE value="chessboard 5" />
@@ -571,7 +572,8 @@
     <MESSAGE value="metody statyczne" />
     <MESSAGE value="unit converter" />
     <MESSAGE value="exception Zadanie 2A" />
-    <option name="LAST_COMMIT_MESSAGE" value="exception Zadanie 2A" />
+    <MESSAGE value="powtorka rozgalezienia" />
+    <option name="LAST_COMMIT_MESSAGE" value="powtorka rozgalezienia" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -592,6 +594,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$Module_Functions_Part_2.coverage" NAME="Module_Functions_Part_2 Coverage Results" MODIFIED="1728488104783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$chessboard_and_knight_15x15.coverage" NAME="chessboard_and_knight_15x15 Coverage Results" MODIFIED="1729434749254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$Generators_Part_1.coverage" NAME="Generators_Part_1 Coverage Results" MODIFIED="1728755263543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$2024_12_17_Petle.coverage" NAME="2024.12.17_Petle Coverage Results" MODIFIED="1734459849879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$.coverage" NAME=" Coverage Results" MODIFIED="1730820394207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$Dekoratory_Czesc_7.coverage" NAME="Dekoratory_Czesc_7 Coverage Results" MODIFIED="1732311280114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ITStepZadaniaDomowe$Metody_statyczne_Czesc_3.coverage" NAME="Metody_statyczne_Czesc_3 Coverage Results" MODIFIED="1730967023977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
